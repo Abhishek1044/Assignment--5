@@ -1,13 +1,5 @@
-def reverse(s):
-    str = ""
-    for i in s:
-        str = i + str
-    return str
-
-s = "PunjabEnggCollege"
-
-print ("The original string is : ",end="")
-print (s)
-
-print ("The reversed string(using loops) is : ",end="")
-print (reverse(s))
+string="hello ! world"
+new_str=""
+for i in string:
+    new_str= i + new_str
+print(new_str)
